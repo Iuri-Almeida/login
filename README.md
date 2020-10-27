@@ -7,6 +7,7 @@
   <a href="#tecnologias">Tecnologias</a> &#xa0; | &#xa0;
   <a href="#requisitos">Requisitos</a> &#xa0; | &#xa0;
   <a href="#executando">Executando</a> &#xa0; | &#xa0;
+  <a href="#roadmap">Roadmap</a> &#xa0; | &#xa0;
   <a href="#referencias">Referências</a> &#xa0; | &#xa0;
   <a href="#contato">Contato</a>
 
@@ -94,6 +95,18 @@ $ npm start
 
 # O servidor irá iniciar em http://127.0.0.1:5500
 ```
+
+</div>
+
+<div id = "roadmap">
+
+## :surfer: Roadmap ##
+
+* Adicionar cadastro de imagem de perfil
+* Apresentar a imagem de perfil
+* Opção de deletar o cadastro
+* Bloquear a entrada na página de usuários pela url
+* Criar um drag'n drop na página de usuários
 
 </div>
 
