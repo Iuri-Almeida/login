@@ -1,6 +1,6 @@
 <div align = "center" id = "top">
 
-<p align = "center">
+<p>
 
   <a href="#motivos">Motivos</a> &#xa0; | &#xa0;
   <a href="#descricao">Descrição</a> &#xa0; | &#xa0;
@@ -16,7 +16,7 @@
 
 <br>
 
-<div align = "center" id = "motivos">
+<div id = "motivos">
 
 ## :gem: Motivos ##
 
@@ -28,7 +28,7 @@
 
 </div>
 
-<div align = "center" id = "descricao">
+<div id = "descricao">
 
 ## :pushpin: Descrição ##
 
