@@ -1,4 +1,6 @@
-<p align = "center" id = "top">
+<div align = "center" id = "top">
+
+<p align = "center">
 
   <a href="#motivos">Motivos</a> &#xa0; | &#xa0;
   <a href="#descricao">Descrição</a> &#xa0; | &#xa0;
@@ -6,17 +8,19 @@
   <a href="#requisitos">Requisitos</a> &#xa0; | &#xa0;
   <a href="#executando">Executando</a> &#xa0; | &#xa0;
   <a href="#referencias">Referências</a> &#xa0; | &#xa0;
-  <a href="#contato">Contato</a> &#xa0; | &#xa0;
+  <a href="#contato">Contato</a>
 
 </p>
 
+</div>
+
 <br>
 
-<div id = "motivos">
+<div align = "center" id = "motivos">
 
 ## :gem: Motivos ##
 
-<p align = "center">
+<p>
 
   Após um tempo mexendo somente no front end, decidi me aventurar e conhecer um pouco sobre o back end. Inspirado na <a href = "https://nextlevelweek.com/">Next Level Week #3</a> proporcionado pela <a href = "https://rocketseat.com.br/">Rocketseat</a>, essa é minha primeira aplicação com back end que fiz sozinho. Muito feliz por ter começado essa nova etapa na programação :heart:
 
@@ -24,11 +28,11 @@
 
 </div>
 
-<div id = "descricao">
+<div align = "center" id = "descricao">
 
 ## :pushpin: Descrição ##
 
-<p align = "center">
+<p>
 
   Aplicação web desenvolvida com o objetivo de conhecer e aprender sobre o back end. Essa aplicação faz o cadastro e validação do log in dos usuários e apresenta os usuários cadastrados de forma dinâmica.
 
@@ -58,9 +62,9 @@ Todas as tecnologias usadas na realização do projeto:
 
 Antes de executar, você precisar ter o [Git](https://git-scm.com) e o [Node](https://nodejs.org/pt-br/) instalados. Após instalá-los, vamos a lista das dependências que precisam ser instaladas:
 
-:one: [Express](https://expressjs.com/pt-br/)
-:two: [Nodemon](https://nodemon.io/)
-:tree: [Handlebars](https://handlebarsjs.com/)
+:one: [Express](https://expressjs.com/pt-br/) <br>
+:two: [Nodemon](https://nodemon.io/) <br>
+:three: [Handlebars](https://handlebarsjs.com/) <br>
 :four: [SQLite](https://www.sqlite.org/index.html)
 
 :construction: As versões de todas as dependências estão no arquivo <a href="./package.json">package.json</a>.
@@ -116,4 +120,8 @@ Alguns locais de onde me baseei para realizar o projeto:
 
 <hr>
 
-<a align = "center" href = "#top">Voltar ai início</a>
+<div align = "center">
+
+<a href = "#top">Voltar ai início</a>
+
+</div>
