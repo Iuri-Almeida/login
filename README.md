@@ -62,12 +62,12 @@ Todas as tecnologias usadas na realização do projeto:
 
 Antes de executar, você precisar ter o [Git](https://git-scm.com) e o [Node](https://nodejs.org/pt-br/) instalados. Após instalá-los, vamos a lista das dependências que precisam ser instaladas:
 
-:one: [Express](https://expressjs.com/pt-br/) <br>
-:two: [Nodemon](https://nodemon.io/) <br>
-:three: [Handlebars](https://handlebarsjs.com/) <br>
-:four: [SQLite](https://www.sqlite.org/index.html)
+:one: &#xa0; [Express](https://expressjs.com/pt-br/) <br>
+:two: &#xa0; [Nodemon](https://nodemon.io/) <br>
+:three: &#xa0; [Handlebars](https://handlebarsjs.com/) <br>
+:four: &#xa0; [SQLite](https://www.sqlite.org/index.html)
 
-:construction: As versões de todas as dependências estão no arquivo <a href="./package.json">package.json</a>.
+:construction: &#xa0; As versões de todas as dependências estão no arquivo <a href="./package.json">package.json</a>.
 
 </div>
 
@@ -106,7 +106,7 @@ Alguns locais de onde me baseei para realizar o projeto:
 * <a href = "https://nextlevelweek.com/">Next Level Week #3</a>
 * [Rocketseat](https://rocketseat.com.br/)
 
-:mag: Os ícones usados nesse README foram tirados desse [repositório](https://gist.github.com/rxaviers/7360908).
+:mag: &#xa0; Os ícones usados nesse README foram tirados desse [repositório](https://gist.github.com/rxaviers/7360908).
 
 </div>
 
@@ -114,9 +114,9 @@ Alguns locais de onde me baseei para realizar o projeto:
 
 ## :wave: Contato ##
 
-:necktie: <a href = "https://www.linkedin.com/in/iurilopesalmeida/"> LinkedIn </a>
+:necktie: &#xa0; <a href = "https://www.linkedin.com/in/iurilopesalmeida/"> LinkedIn </a>
 <br>
-:rocket: <a href="https://app.rocketseat.com.br/me/iurialmeida"> Rocketseat </a>
+:rocket: &#xa0; <a href="https://app.rocketseat.com.br/me/iurialmeida"> Rocketseat </a>
 
 </div>
 
