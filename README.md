@@ -114,7 +114,8 @@ Alguns locais de onde me baseei para realizar o projeto:
 
 ## :wave: Contato ##
 
-* <a href = "https://www.linkedin.com/in/iurilopesalmeida/"> Iuri Almeida </a> - Graduando de Engenharia Agrícola e Ambiental na UFF.
+* <a href = "https://www.linkedin.com/in/iurilopesalmeida/"> LinkedIn </a> :necktie:
+* <a href="https://app.rocketseat.com.br/me/iurialmeida"> Rocketseat </a> :rocket:
 
 </div>
 
