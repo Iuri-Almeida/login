@@ -114,8 +114,9 @@ Alguns locais de onde me baseei para realizar o projeto:
 
 ## :wave: Contato ##
 
-* <a href = "https://www.linkedin.com/in/iurilopesalmeida/"> LinkedIn </a> :necktie:
-* <a href="https://app.rocketseat.com.br/me/iurialmeida"> Rocketseat </a> :rocket:
+:necktie: <a href = "https://www.linkedin.com/in/iurilopesalmeida/"> LinkedIn </a>
+<br>
+:rocket: <a href="https://app.rocketseat.com.br/me/iurialmeida"> Rocketseat </a>
 
 </div>
 
