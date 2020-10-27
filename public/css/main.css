@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    font-size: 10px;
+}
+
+html, body {
+    height: 100vh;
+}
+
+body, input, button {
+    font: 400 1.8rem/1 'Comfortaa', cursive;
+}
+
+body {
+    background: linear-gradient(180deg, #5259FF 0%, rgba(255, 255, 255, 0.4) 100%) no-repeat fixed;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 15rem 0;
+}

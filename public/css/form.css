@@ -1,0 +1,89 @@
+fieldset {
+    border: 0;
+}
+
+fieldset legend {
+    width: 100%;
+
+    font-weight: 700;
+    font-size: 5.2rem;
+    line-height: 1.5;
+
+    text-align: center;
+
+    margin-bottom: 4rem;
+}
+
+.input-data {
+    margin-bottom: 1rem;
+}
+
+.input-data label {
+    font-size: 2.4rem;
+}
+
+.input-data input {
+    width: 94%;
+    height: 7rem;
+
+    background: #E9E9E9;
+    
+    border: 0;
+    border-radius: 1.3rem;
+    
+    margin: 2rem 0;
+    padding: 0 1rem;
+}
+
+.input-data img {
+    width: 6rem;
+}
+
+.password-eye-button {
+    position: relative;
+}
+
+.password-eye-button span {
+    position: absolute;
+    right: 21px;
+    top: 25px;
+
+    cursor: pointer;
+}
+
+.without-register {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.without-register span a {
+    text-decoration: none;
+    color: #5259FF;
+}
+
+.without-register span a:hover {
+    text-decoration: underline;
+}
+
+fieldset button {
+    width: 100%;
+    height: 8rem;
+
+    margin: 2.4rem 0;
+    border: 0;
+    border-radius: 1.4rem;
+
+    background: #5259FF;
+
+    font-weight: 600;
+    font-size: 3.2rem;
+
+    cursor: pointer;
+
+    transition: background 200ms;
+}
+
+fieldset button:hover {
+    background: #8C91FA;
+}

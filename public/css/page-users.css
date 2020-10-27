@@ -1,0 +1,59 @@
+#body {
+    display: initial;
+    padding: 0;
+}
+
+#page-users {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    padding: 1.2rem;
+}
+
+.users-grid {
+    width: 30rem;
+
+    margin: 1.2rem 2rem;
+    padding: 5rem 4rem;
+
+    background: white;
+    border-radius: 2.4rem;
+
+    box-shadow: 0px 0px 20px 0px #6e6e6e;
+
+    display: flex;
+    align-items: center;
+}
+
+main {
+    width: 100%;
+
+    text-align: center;
+}
+
+main h2 {
+    margin-bottom: 2rem;
+
+    font-weight: 700;
+    font-size: 3.2rem;
+}
+
+main h4 {
+    text-align: initial;
+
+    margin: 1.6rem 0;
+
+    font-weight: 600;
+    font-size: 2.2rem;
+}
+
+main span {
+    font-weight: 400;
+    font-size: 1.6rem;
+}
+
+.animate-up {
+    animation-name: up;
+    animation-duration: 400ms;
+}

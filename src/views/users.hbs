@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+    <head>
+
+        <meta charset="UTF-8">
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <title>Usuários</title>
+
+        <link rel="stylesheet" href="/css/main.css">
+
+        <link rel="stylesheet" href="/css/page-users.css">
+
+        <link rel="stylesheet" href="/css/animation.css">
+
+        <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;600;700&display=swap" rel="stylesheet">
+
+    </head>
+
+    <body id="body">
+        
+        <div id="page-users" class="animate-up">
+
+            {{#each user}}
+
+                <div class="users-grid">
+
+                    <main>
+
+                        <h2>{{this.name}}</h2>
+
+                        <h4>Email</h4>
+                        <span>{{this.email}}</span>
+
+                        <h4>Celular</h4>
+                        <span>{{this.phone}}</span>
+
+                    </main>
+
+                </div>
+
+            {{/each}}
+
+        </div>
+
+    </body>
+</html>

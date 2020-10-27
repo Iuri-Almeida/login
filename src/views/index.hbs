@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+    <head>
+
+        <meta charset="UTF-8">
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <title>Log in</title>
+
+        <link rel="stylesheet" href="/css/main.css">
+
+        <link rel="stylesheet" href="/css/page-landing.css">
+
+        <link rel="stylesheet" href="/css/form.css">
+
+        <link rel="stylesheet" href="/css/animation.css">
+
+        <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;600;700&display=swap" rel="stylesheet">
+
+    </head>
+
+    <body id="body">
+        
+        <div id="page-landing" class="animate-up">
+
+            <main>
+
+                <form action="verify-user" method="post">
+
+                    <fieldset>
+
+                        <legend>Log In</legend>
+
+                        <div class="input-data">
+
+                            <label for="email">Email</label>
+
+                            <input title="Preencha com seu email." type="email" name="email" required>
+
+                        </div>
+
+                        <div class="input-data">
+
+                            <label for="password">Senha</label>
+
+                            <div class="password-eye">
+
+                                <div class="password-eye-button">
+
+                                    <input title="Preencha com sua senha." type="password" name="password" required>
+
+                                    <span>
+
+                                        <img onclick="openAndCloseEye(event)" src="/images/closed-eye.png" alt="Ver senha">
+
+                                    </span>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="without-register">
+
+                            <span>Ainda não tem cadastro? <a title="Cadastre-se." href="./register">Cadastre-se</a></span>
+
+                        </div>
+
+                        <button title="Entrar na sua conta." type="submit">Entrar</button>
+
+                    </fieldset>
+
+                </form>
+
+            </main>
+
+        </div>
+
+        <script src="/scripts/see-password.js"></script>
+
+    </body>
+</html>

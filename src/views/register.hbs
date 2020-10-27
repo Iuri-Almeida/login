@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+    <head>
+
+        <meta charset="UTF-8">
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <title>Cadastro</title>
+
+        <link rel="stylesheet" href="/css/main.css">
+
+        <link rel="stylesheet" href="/css/form.css">
+
+        <link rel="stylesheet" href="/css/page-register.css">
+
+        <link rel="stylesheet" href="/css/animation.css">
+
+        <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;600;700&display=swap" rel="stylesheet">
+
+    </head>
+
+    <body id="body">
+
+        <img title="Voltar." src="/images/arrow.svg" alt="Voltar" onclick="history.back()">
+        
+        <div id="page-register" class="animate-up">
+
+            <main>
+
+                <form action="register-user" method="post">
+
+                    <fieldset>
+
+                        <legend>Cadastro</legend>
+
+                        <div class="input-data">
+
+                            <label for="name">Nome</label>
+
+                            <input title="Preencha com seu nome." type="text" name="name" required>
+
+                        </div>
+
+                        <div class="input-data">
+
+                            <label for="email">Email</label>
+
+                            <input title="Preencha com seu email." type="email" name="email" required>
+
+                        </div>
+
+                        <div class="input-data">
+
+                            <label for="phone">Celular</label>
+
+                            <input title="Preencha com seu celular." type="tel" name="phone" required>
+
+                        </div>
+
+                        <div class="input-data">
+
+                            <label for="password">Senha</label>
+
+                            <div class="password-eye">
+
+                                <div class="password-eye-button">
+
+                                    <input title="Preencha com sua senha." oninput="passwordLength(event)" minlength="8" type="password" name="password" required>
+
+                                    <span>
+
+                                        <img onclick="openAndCloseEye(event)" src="/images/closed-eye.png" alt="Ver senha">
+
+                                    </span>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="input-data">
+
+                            <label for="confirm-password">Confirmar senha</label>
+
+                            <div class="password-eye">
+
+                                <div class="password-eye-button">
+
+                                    <input title="Confirme sua senha." oninput="confirmPassword()" type="password" name="confirm-password" required>
+
+                                    <span>
+
+                                        <img onclick="openAndCloseEye(event)" src="/images/closed-eye.png" alt="Ver senha">
+
+                                    </span>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <button title="Confirmar seu cadastro." type="submit">Confirmar</button>
+
+                    </fieldset>
+
+                </form>
+
+            </main>
+
+        </div>
+
+        <script src="/scripts/see-password.js"></script>
+
+        <script src="/scripts/confirm-password.js"></script>
+
+    </body>
+</html>

@@ -1,0 +1,43 @@
+#body {
+    padding: initial;
+}
+
+body a {
+    position: absolute;
+    right: 3rem;
+    top: 3rem;
+
+    cursor: pointer;
+}
+
+body a img {
+    width: 6rem;
+}
+
+main {
+    width: 100%;
+}
+
+.login-error-succeed h2 {
+    text-align: center;
+
+    font-size: 4.4rem;
+    font-weight: 700;
+}
+
+.cancel-check-login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cancel-check-login img {
+    width: 30%;
+    margin-top: 2rem;
+}
+
+/* Animação */
+.animate-up {
+    animation-name: up;
+    animation-duration: 400ms;
+}
